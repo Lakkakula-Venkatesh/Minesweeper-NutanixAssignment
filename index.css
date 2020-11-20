@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.box {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.no-bomb {
+  background-color: gray;
+}
+.bomb {
+  background-color: red;
+  background: url("bomb.png");
+  background-size: 50px 50px
+}
+
+.safe {
+  font-size: 25px;
+  font-weight: bold;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moderate {
+  font-size: 25px;
+  font-weight: bold;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.harm {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hint {
+  background: url("flag.jpg");
+  background-size: 100% 100%;
+}
+#btns {
+  display: flex;
+  justify-content: space-between;
+}
