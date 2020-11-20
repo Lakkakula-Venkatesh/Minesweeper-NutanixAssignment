@@ -23,9 +23,8 @@ body {
   background-color: gray;
 }
 .bomb {
-  background-color: red;
   background: url("bomb.png");
-  background-size: 50px 50px
+  background-size: 30px 30px;
 }
 
 .safe {
